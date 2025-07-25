@@ -1,4 +1,5 @@
 import numpy as np
+
 mylist = np.arange(0,5)
 mylist2= np.arange(5,10)
 arr = np.array([mylist,mylist2])

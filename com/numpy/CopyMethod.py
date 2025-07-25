@@ -1,4 +1,5 @@
 import numpy as np
+
 arr = np.arange(1,10)
 print(arr)
 arr[3:] = 100
