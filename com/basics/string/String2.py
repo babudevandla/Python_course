@@ -1,0 +1,26 @@
+
+str1 = "Hello World"
+str2 = '12345611'
+print(str1.find('W'))
+print(str1.isalnum())
+print(str2.isalnum())
+print(str1.isalpha())
+print(str2.isdecimal())
+print(str1.isdigit())
+print(str1.lower().islower())
+print(str1.title())
+print(str2.title())
+print(str1.isidentifier())
+print(str2.isnumeric())
+print(str1.index('W'))
+print(str1.rsplit())
+print(str2.rsplit())
+print(str1.split())
+print(str1.istitle())
+str3 = 'John123'
+print(str3.isalnum())
+print(str2.count('1'))
+print('My first name is {} and last name is {}'.format(str1,str3))
+print("My first name is {first} and last name is {last} ".format(first=str1,last=str3))
+print(str1.removeprefix("He"))
+print(str1.casefold())

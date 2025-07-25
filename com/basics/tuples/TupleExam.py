@@ -1,0 +1,11 @@
+my_tuple = ()
+print(type(my_tuple))
+print('------------')
+my_tuple = tuple()
+print(type(my_tuple))
+print('------------')
+my_tuple = ('Krish','Ankur','Babu')
+print(my_tuple)
+
+print(my_tuple.count('Krish'))
+print(my_tuple.index('Babu', 0,3))
